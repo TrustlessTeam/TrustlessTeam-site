@@ -20,10 +20,10 @@ export const aboutData = {
   img: 'profile.png',
   paragraphOne: 'Edd Norris : GameDev, Blockchain',
   paragraphTwo: 'Isaac Schwab : WebDev, Blockchain',
-  paragraphThree: 'Cryptickoan : WebDev, Blockchain',
+  paragraphThree: '',
   githubOne: 'https://github.com/twobitEDD',
   githubTwo: 'https://github.com/isaacschwab',
-  githubThree: 'https://github.com/cryptickoan',
+  githubThree: '',
 };
 
 // PROJECTS DATA
