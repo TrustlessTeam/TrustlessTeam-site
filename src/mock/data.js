@@ -41,9 +41,10 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Would you like to work with us?',
-  btn: 'Email now!',
-  email: 'admin@TrustlessTeam.one',
+  cta: 'TrustlessTeam has recently launched a Staking Validator on Harmony! ',
+  cta2: 'Your support would be very much appreciated! ',
+  btn: 'STAKE NOW!',
+  email: 'https://staking.harmony.one/validators/mainnet/one1w9g7j40ctzlffmjrp6nmypdupsmyh0u90yn9xs',
 };
 
 // FOOTER DATA

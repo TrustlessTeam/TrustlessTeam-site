@@ -6,7 +6,7 @@ import Title from '../Title/Title';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
-  const { cta, btn, email } = contact;
+  const { cta, cta2, btn, link } = contact;
 
   return (
     <section id="contact">
@@ -18,7 +18,7 @@ const Contact = () => {
               {cta || 'TrustlessTeam has recently launched a Staking Validator on Harmony! '}
             </p>
             <p className="contact-wrapper__text">
-              {cta || 'Your support would be very much appreciated! '}
+              {cta2 || 'Your support would be very much appreciated! '}
             </p>
             <a
               target="_blank"
