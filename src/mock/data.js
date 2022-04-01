@@ -23,8 +23,11 @@ export const aboutData = {
   paragraphTwo: 'Edd Norris: #GameDev, Blockchain',
   paragraphThree: 'Isaac Schwab : #WebDev, Blockchain',
   githubOne: '',
+  twitterOne: '',
   githubTwo: 'https://github.com/twobitEDD',
+  twitterTwo: 'https://twitter.com/eddnorris',
   githubThree: 'https://github.com/isaacschwab',
+  twitterThree: 'https://twitter.com/devschwab',
 };
 
 // PROJECTS DATA

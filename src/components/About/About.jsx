@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, title, paragraphOne, paragraphTwo, paragraphThree, githubOne, githubTwo, githubThree } =
+  const { img, title, paragraphOne, paragraphTwo, paragraphThree, githubOne, twitterOne, githubTwo, twitterTwo, githubThree, twitterThree } =
     about;
 
   const [isDesktop, setIsDesktop] = useState(false);
@@ -50,6 +50,18 @@ const About = () => {
                     >
                       Github
                     </a>
+
+                    <p>  ____ </p>
+                    {twitterOne && (
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cta-btn cta-btn--resume"
+                      href={twitterOne}
+                    >
+                      Twitter
+                    </a>
+                )}
                   </span>
                 )}
                 <p> </p>
@@ -65,8 +77,20 @@ const About = () => {
                     >
                       Github
                     </a>
+                    <p>  ____ </p>
+                    {twitterTwo && (
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cta-btn cta-btn--resume"
+                      href={twitterTwo}
+                    >
+                      Twitter
+                    </a>
+                )}
                   </span>
                 )}
+                 
                 <p> </p>
                 <p> </p>
 
@@ -81,6 +105,19 @@ const About = () => {
                     >
                       Github
                     </a>
+
+
+                    <p>  ____ </p>
+                    {twitterThree && (
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cta-btn cta-btn--resume"
+                      href={twitterThree}
+                    >
+                      Twitter
+                    </a>
+                )}
                   </span>
                 )}
               </div>
