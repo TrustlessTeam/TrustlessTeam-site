@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Trustless Team, DAO', // e.g: 'Name | Developer'
+  title: 'TrustlessTeam, DAO', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Building Trustless Technology', // e.g: Welcome to my website
+  description: 'Building Blockchain Entertainment', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -30,12 +30,25 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'fishingscreenshot.png',
+    pdf: 'https://bafybeifwguc5jfma7kplmtljp373ccowavhxdrampviaqcit2e5zw6tn4a.ipfs.dweb.link/',
     title: 'FishFight.one',
-    info: 'Fish Fight is a collectable NFT game where you go fishing on an alien world.',
-    info2: 'Once you catch your fish, they will only want to do $ONE thing... FIGHT!',
+    info: 'FishFight is a collectable NFT game where you catch FISH on an alien world. ❄️   -- Once you catch your $FISH, they will only want to do $ONE thing: FIGHT!💀 -- After that, they\'re gonna want to BREED...💞',
+    info2: 'Collect and enjoy interactive experiences with yours & other people\'s $FISH across the world! 💙',
+    info3: 'Catch them, trade them, sell them, earn FISHFOOD, FISHEGG & FISHSCALES via Gameplay!  Including feeding them fish from other games like #DefiKingdoms #Bloaters ',
     url: 'https://FishFight.one',
-    repo: 'https://github.com/TrustlessTeam/FishFight', // if no repo, the button will not show up
+    repo: 'https://bafybeifwguc5jfma7kplmtljp373ccowavhxdrampviaqcit2e5zw6tn4a.ipfs.dweb.link/', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'ScribblesNFTOffspring.png',
+    pdf: 'https://bafybeifwguc5jfma7kplmtljp373ccowavhxdrampviaqcit2e5zw6tn4a.ipfs.dweb.link/',
+    title: 'ScribblesNFToffspring',
+    info: 'TrustlessTeam is proud to maintain the entirely On-Chain Collectable-NFT Modern Art Project ScribblesNFT.',
+    info2: '1024 Randomly Generated NFT Pieces Minted on the Harmony $ONE Blockchain by @BadAtBlockchain!',
+    info3: 'Series 2 will be called ScribblesNFToffspring, & it is a generative NFT project for ScribblesNFT Holders Only... Stay tuned!',
+    url: 'https://nftkey.app/collections/scribbles/',
+    //repo: 'https://bafybeifwguc5jfma7kplmtljp373ccowavhxdrampviaqcit2e5zw6tn4a.ipfs.dweb.link/', // if no repo, the button will not show up
   },
 ];
 
