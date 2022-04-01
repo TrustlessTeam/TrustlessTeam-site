@@ -11,19 +11,20 @@ export const headData = {
 export const heroData = {
   title: '',
   name: '',
-  subtitle: '',
-  cta: '',
+  subtitle: 'Building Blockchain Fun.',
+  cta: 'Projects',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.png',
-  paragraphOne: 'Edd Norris : GameDev, Blockchain',
-  paragraphTwo: 'Isaac Schwab : WebDev, Blockchain',
-  paragraphThree: '',
-  githubOne: 'https://github.com/twobitEDD',
-  githubTwo: 'https://github.com/isaacschwab',
-  githubThree: '',
+  title: 'CORE TEAM: ',
+  paragraphOne: '',
+  paragraphTwo: 'Edd Norris: #GameDev, Blockchain',
+  paragraphThree: 'Isaac Schwab : #WebDev, Blockchain',
+  githubOne: '',
+  githubTwo: 'https://github.com/twobitEDD',
+  githubThree: 'https://github.com/isaacschwab',
 };
 
 // PROJECTS DATA

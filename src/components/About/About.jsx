@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, githubOne, githubTwo, githubThree } =
+  const { img, title, paragraphOne, paragraphTwo, paragraphThree, githubOne, githubTwo, githubThree } =
     about;
 
   const [isDesktop, setIsDesktop] = useState(false);
@@ -38,6 +38,7 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
+              <h1 className="about-wrapper__info-title">{title || 'Project Title'}</h1>
                 <p className="about-wrapper__info-text">{paragraphOne}</p>
                 {githubOne && (
                   <span className="d-flex mt-3">
