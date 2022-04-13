@@ -56,6 +56,22 @@ export const projectsData = [
   },
 ];
 
+
+// PARTNERS DATA
+export const partnersData = [
+  {
+    id: nanoid(),
+    img: 'cerebralgaming.png',
+    pdf: 'https://www.cerebralgaming.one/',
+    title: 'Cerebral Gaming DAO x TrustlessTeam',
+    info: 'Cerebral Gaming DAO and TrustlessTeam are collabrating to form an official partnership!',
+    info2: 'We will be working to set up a Livesteaming Twitch.tv Event! During this event we will be launching our latest FIGHTING Pool!',
+    info3: 'To celebrate this new FIGHTING Pool, we\'re planning to create a new way to watch large fights as a community on Twitch.tv!',
+    url: 'https://discord.gg/cerebralgaming',
+    repo: 'https://twitter.com/CerebralESPORT', // if no repo, the button will not show up
+  }
+];
+
 // CONTACT DATA
 export const contactData = {
   cta: 'TrustlessTeam has recently launched a Staking Validator on Harmony! ',
