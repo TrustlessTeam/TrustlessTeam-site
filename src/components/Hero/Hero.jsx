@@ -28,7 +28,7 @@ const Header = () => {
           <h1 className="hero-title">
             {title || 'Welcome to '}{' '}
             <span className="text-color-main">{name || 'TrustlessTeam'}</span>
-            .one
+            .com
             <br />
             {subtitle || 'We build trustless solutions.'}
           </h1>

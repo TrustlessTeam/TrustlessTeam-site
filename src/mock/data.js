@@ -36,11 +36,11 @@ export const projectsData = [
     id: nanoid(),
     img: 'fishingscreenshot.png',
     pdf: 'https://bafybeifwguc5jfma7kplmtljp373ccowavhxdrampviaqcit2e5zw6tn4a.ipfs.dweb.link/',
-    title: 'FishFight.one',
+    title: 'FishFight',
     info: 'FishFight is a collectable NFT game where you catch FISH on an alien world. ❄️   -- Once you catch your $FISH, they will only want to do $ONE thing: FIGHT!💀 -- After that, they\'re gonna want to BREED...💞',
     info2: 'Collect and enjoy interactive experiences with yours & other people\'s $FISH across the world! 💙',
     info3: 'Catch them, trade them, sell them, earn FISHFOOD, FISHEGG & FISHSCALES via Gameplay!  Including feeding them fish from other games like #DefiKingdoms #Bloaters ',
-    url: 'https://FishFight.one',
+    url: 'https://FishFight.app',
     repo: 'https://bafybeifwguc5jfma7kplmtljp373ccowavhxdrampviaqcit2e5zw6tn4a.ipfs.dweb.link/', // if no repo, the button will not show up
   },
   {
@@ -51,7 +51,7 @@ export const projectsData = [
     info: 'TrustlessTeam is proud to maintain the entirely On-Chain Collectable-NFT Modern Art Project ScribblesNFT.',
     info2: '1024 Randomly Generated NFT Pieces Minted on the Harmony $ONE Blockchain by @BadAtBlockchain!',
     info3: 'Series 2 will be called ScribblesNFToffspring, & it is a generative NFT project for ScribblesNFT Holders Only... Stay tuned!',
-    url: 'https://nftkey.app/collections/scribbles/',
+    url: 'https://Scribbles.TrustlessTeam.com',
     //repo: 'https://bafybeifwguc5jfma7kplmtljp373ccowavhxdrampviaqcit2e5zw6tn4a.ipfs.dweb.link/', // if no repo, the button will not show up
   },
 ];
@@ -61,14 +61,25 @@ export const projectsData = [
 export const partnersData = [
   {
     id: nanoid(),
-    img: 'cerebralgaming.png',
-    pdf: 'https://www.cerebralgaming.one/',
-    title: 'Cerebral Gaming DAO x TrustlessTeam',
-    info: 'Cerebral Gaming DAO and TrustlessTeam are collabrating to form an official partnership!',
-    info2: 'We will be working to set up a Livesteaming Twitch.tv Event! During this event we will be launching our latest FIGHTING Pool!',
-    info3: 'To celebrate this new FIGHTING Pool, we\'re planning to create a new way to watch large fights as a community on Twitch.tv!',
-    url: 'https://discord.gg/cerebralgaming',
-    repo: 'https://twitter.com/CerebralESPORT', // if no repo, the button will not show up
+    img: 'harmonydeployment.png',
+    pdf: 'https://harmony.one/',
+    title: 'Harmony $ONE',
+    info: 'FishFight has been deployed on Harmony since April of 2022. A custom NFT store will be available soon - FishFight.TrustlessTeam.com ',
+    info2: 'Scribbles has been deployed on Harmony since August of 2021. A custom store is available now - Scribbles.TrustlessTeam.com ',
+    info3: '',
+    url: 'https://discord.gg/gGFXZezw7A',
+    repo: 'https://twitter.com/HarmonyProtocol', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'polygondeployment.png',
+    pdf: 'https://polygon.technology/',
+    title: 'Polygon $MATIC',
+    info: 'FishFight.app and Scribbles.TrustlessTeam.com will be deployed to the Polygon $MATIC Network!',
+    info2: '',
+    info3: '',
+    url: 'https://discord.gg/UxeqJUWHrw',
+    repo: 'https://twitter.com/0xPolygon', // if no repo, the button will not show up
   }
 ];
 

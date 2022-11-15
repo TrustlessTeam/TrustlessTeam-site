@@ -30,7 +30,7 @@ const Partners = () => {
     <section id="partners">
       <Container>
         <div className="partners-wrapper">
-          <Title title="Partners" />
+          <Title title="Deployments" />
           {partners.map((project) => {
             const { title, info, info2, info3, url, repo, img, id } = project;
 
