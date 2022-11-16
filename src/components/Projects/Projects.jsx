@@ -32,7 +32,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, info3, url, repo, img, id } = project;
+            const { title, info, info2, info3, url, repo, img, id, discord, twitter } = project;
 
             return (
               <Row key={id}>
@@ -72,6 +72,27 @@ const Projects = () => {
                         >
                           White Paper
                         </a>
+                        
+                      )}
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cta-btn cta-btn--hero"
+                        href={discord || '#!'}
+                      >
+                        Join Discord
+                      </a>
+
+                      {twitter && (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn text-color-main"
+                          href={twitter}
+                        >
+                          Follow On Twitter
+                        </a>
+                        
                       )}
                     </div>
                   </Fade>

@@ -42,17 +42,21 @@ export const projectsData = [
     info3: 'Catch them, trade them, sell them, earn FISHFOOD, FISHEGG & FISHSCALES via Gameplay!  Including feeding them fish from other games like #DefiKingdoms #Bloaters ',
     url: 'https://FishFight.app',
     repo: 'https://bafybeifwguc5jfma7kplmtljp373ccowavhxdrampviaqcit2e5zw6tn4a.ipfs.dweb.link/', // if no repo, the button will not show up
+    discord: 'https://discord.gg/Uzq8KNdU',
+    twitter: 'https://twitter.com/fishfight1nft', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'ScribblesNFTOffspring.png',
-    pdf: 'https://bafybeifwguc5jfma7kplmtljp373ccowavhxdrampviaqcit2e5zw6tn4a.ipfs.dweb.link/',
+    pdf: 'https://bafybeidzcts4kjrvqewo2rm6aduxtolkp45kbwns4j72uynlrgm5svigcm.ipfs.nftstorage.link/',
     title: 'ScribblesNFToffspring',
     info: 'TrustlessTeam is proud to maintain the entirely On-Chain Collectable-NFT Modern Art Project ScribblesNFT.',
     info2: '1024 Randomly Generated NFT Pieces Minted on the Harmony $ONE Blockchain by @BadAtBlockchain!',
     info3: 'Series 2 will be called ScribblesNFToffspring, & it is a generative NFT project for ScribblesNFT Holders Only... Stay tuned!',
     url: 'https://Scribbles.TrustlessTeam.com',
-    //repo: 'https://bafybeifwguc5jfma7kplmtljp373ccowavhxdrampviaqcit2e5zw6tn4a.ipfs.dweb.link/', // if no repo, the button will not show up
+    repo: 'https://bafybeidzcts4kjrvqewo2rm6aduxtolkp45kbwns4j72uynlrgm5svigcm.ipfs.nftstorage.link/', // if no repo, the button will not show up
+    discord: 'https://discord.gg/Uzq8KNdU',
+    twitter: 'https://twitter.com/ScribblesColNFT', // if no repo, the button will not show up
   },
 ];
 
