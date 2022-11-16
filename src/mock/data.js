@@ -49,10 +49,10 @@ export const projectsData = [
     id: nanoid(),
     img: 'ScribblesNFTOffspring.png',
     pdf: 'https://bafybeidzcts4kjrvqewo2rm6aduxtolkp45kbwns4j72uynlrgm5svigcm.ipfs.nftstorage.link/',
-    title: 'ScribblesNFToffspring',
+    title: 'ScribblesNFT & ScribblesNFT-Offspring',
     info: 'TrustlessTeam is proud to maintain the entirely On-Chain Collectable-NFT Modern Art Project ScribblesNFT.',
     info2: '1024 Randomly Generated NFT Pieces Minted on the Harmony $ONE Blockchain by @BadAtBlockchain!',
-    info3: 'Series 2 will be called ScribblesNFToffspring, & it is a generative NFT project for ScribblesNFT Holders Only... Stay tuned!',
+    info3: 'Series 2 will be called ScribblesNFT-Offspring, & it is a generative NFT project for ScribblesNFT Holders Only... Stay tuned!',
     url: 'https://Scribbles.TrustlessTeam.com',
     repo: 'https://bafybeidzcts4kjrvqewo2rm6aduxtolkp45kbwns4j72uynlrgm5svigcm.ipfs.nftstorage.link/', // if no repo, the button will not show up
     discord: 'https://discord.gg/Uzq8KNdU',
