@@ -68,22 +68,11 @@ export const partnersData = [
     img: 'harmonydeployment.png',
     pdf: 'https://harmony.one/',
     title: 'Harmony $ONE',
-    info: 'FishFight has been deployed on Harmony since April of 2022. A custom NFT store will be available soon - FishFight.TrustlessTeam.com ',
+    info: 'FishFight has been deployed on Harmony since April of 2022. ',
     info2: 'Scribbles has been deployed on Harmony since August of 2021. A custom store is available now - Scribbles.TrustlessTeam.com ',
     info3: '',
     url: 'https://discord.gg/gGFXZezw7A',
     repo: 'https://twitter.com/HarmonyProtocol', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'polygondeployment.png',
-    pdf: 'https://polygon.technology/',
-    title: 'Polygon $MATIC',
-    info: 'FishFight.app and Scribbles.TrustlessTeam.com will be deployed to the Polygon $MATIC Network!',
-    info2: '',
-    info3: '',
-    url: 'https://discord.gg/UxeqJUWHrw',
-    repo: 'https://twitter.com/0xPolygon', // if no repo, the button will not show up
   }
 ];
 
